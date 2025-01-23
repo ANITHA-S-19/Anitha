@@ -1,0 +1,8 @@
+.container div{
+    background-color: pink;
+    border :5px solid purple;
+    height:120px;
+}
+.container{
+    display:flex;
+}

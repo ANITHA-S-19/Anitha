@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <label>Email</label><br>
-    <input type="Email" placeholder="Enter the email"><br><br>
-    <lable>Password</lable><br>
-    <input type="password" placeholder="Enter the password"><br><br>
-    <button>SUBMIT</button>
+    <label>Username:</label><br>
+    <input type="text" id="user" placeholder="Enter the Username"><br>
+    <lable>Password:</lable><br>
+    <input type="password" id="pass" placeholder="Enter the password"><br><br>
+    <button class="submit" onclick="handleLogin()">SUBMIT</button><br>
+    <p id="error">Error</p>
 </body>
 </html>
