@@ -5,9 +5,9 @@ function handleLogin()
     const error=document.getElementById('error') 
 
     const loginData=[
-        {username:"Anitha",password:"`14082005"},
-        {username:"Rifa",password:"051105"},
-        {username:"Mukila",password:"161105"},
+        {username:"Anitha",password:"1234"},
+        {username:"Rifa",password:"5678"},
+        {username:"Mukila",password:"9101112"},
     ]
     const isValid=loginData.some((user)=>user.username===username && user.password===password)
     if (isValid)
